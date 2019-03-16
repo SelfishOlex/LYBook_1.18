@@ -137,3 +137,6 @@
 /dev/SetupAssistantUserPreferences.ini
 /dev/_WAF_/environment.json
 /SetupAssistant.bat
+dev/Tools/LmbrSetup/Win.vc141/
+dev/CloudGemDefectReportSample/Gem/Resources/GameSDK.ico
+filehashes.json
