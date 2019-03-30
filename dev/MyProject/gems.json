@@ -140,6 +140,12 @@
             "_comment": "SceneProcessing"
         },
         {
+            "Path": "Gems/WindowPosition",
+            "Uuid": "80c357c32e1d4d3e91eb341c83e094da",
+            "Version": "0.1.0",
+            "_comment": "WindowPosition"
+        },
+        {
             "Path": "Gems/StartingPointCamera",
             "Uuid": "834070b9537d44df83559e2045c3859f",
             "Version": "0.1.0",
