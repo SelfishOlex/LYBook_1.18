@@ -122,12 +122,6 @@
             "_comment": "CertificateManager"
         },
         {
-            "Path": "Gems/ProcessLifeManagement",
-            "Uuid": "698948526ada4d13bada933e2d7ee463",
-            "Version": "0.1.0",
-            "_comment": "ProcessLifeManagement"
-        },
-        {
             "Path": "Gems/UiBasics",
             "Uuid": "6bb61c9e547043f0afc5019d6d460b78",
             "Version": "0.1.0",
@@ -226,8 +220,7 @@
         {
             "Path": "MyProject/Gem",
             "Uuid": "d47b06fd4781433ab34ec87ed474cb35",
-            "Version": "0.1.0",
-            "_comment": "MyProject"
+            "Version": "0.1.0"
         },
         {
             "Path": "Gems/PrimitiveAssets",
