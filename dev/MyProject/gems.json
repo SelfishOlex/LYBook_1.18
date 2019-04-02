@@ -122,6 +122,12 @@
             "_comment": "CertificateManager"
         },
         {
+            "Path": "Gems/MultiplayerCharacter",
+            "Uuid": "699d2e7ad1fb43738071660ee88863fe",
+            "Version": "0.1.0",
+            "_comment": "MultiplayerCharacter"
+        },
+        {
             "Path": "Gems/UiBasics",
             "Uuid": "6bb61c9e547043f0afc5019d6d460b78",
             "Version": "0.1.0",

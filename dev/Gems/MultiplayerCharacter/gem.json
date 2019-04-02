@@ -1,0 +1,15 @@
+{
+    "GemFormatVersion": 4,
+    "Uuid": "699d2e7ad1fb43738071660ee88863fe",
+    "Name": "MultiplayerCharacter",
+    "DisplayName": "MultiplayerCharacter",
+    "Version": "0.1.0",
+    "Summary": "Various multiplayer character implementations.",
+    "Tags": ["Untagged"],
+    "IconPath": "preview.png",
+    "Modules": [
+        {
+            "Type": "GameModule"
+        }
+    ]
+}
