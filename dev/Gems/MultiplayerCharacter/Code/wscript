@@ -4,6 +4,7 @@ def build(bld):
         # General
         disable_pch             = True,
         file_list               = ['multiplayercharacter.waf_files'],
+        use                     = ['LmbrCentral'],
 
         # Testing
         test_all_file_list      = ['multiplayercharacter_tests.waf_files'],
