@@ -196,7 +196,7 @@
 									<Class name="Id" field="CollisionGroupId" version="1" type="{DFED4FE5-2292-4F07-A318-41C68DAEFE9C}">
 										<Class name="AZ::Uuid" field="GroupId" value="{00000000-0000-0000-0000-000000000000}" type="{E152C105-A133-4D03-BBF8-3D4B2FBA3E2A}"/>
 									</Class>
-									<Class name="bool" field="Visible" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+									<Class name="bool" field="Visible" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 									<Class name="bool" field="Trigger" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 									<Class name="bool" field="Exclusive" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 									<Class name="Vector3" field="Position" value="0.0000000 0.0000000 0.0000000" type="{8379EB7D-01FA-4538-B64B-A6543B4BE73D}"/>
@@ -217,7 +217,7 @@
 										<Class name="ShapeConfiguration" field="BaseClass1" version="1" type="{1FD56C72-6055-4B35-9253-07D432B94E91}">
 											<Class name="Vector3" field="Scale" value="0.5000000 0.5000000 0.5000000" type="{8379EB7D-01FA-4538-B64B-A6543B4BE73D}"/>
 										</Class>
-										<Class name="float" field="Radius" value="0.5000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
+										<Class name="float" field="Radius" value="1.0000000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
 									</Class>
 									<Class name="BoxShapeConfiguration" field="Box" version="1" type="{E58040ED-3E50-4882-B0E9-525E7A548F8D}">
 										<Class name="ShapeConfiguration" field="BaseClass1" version="1" type="{1FD56C72-6055-4B35-9253-07D432B94E91}">
@@ -275,7 +275,7 @@
 										<Class name="float" field="Sleep threshold" value="0.0050000" type="{EA2C3E90-AFBE-44D4-A90D-FAAF79BAF93D}"/>
 										<Class name="bool" field="Start Asleep" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 										<Class name="bool" field="Interpolate Motion" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
-										<Class name="bool" field="Gravity Enabled" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
+										<Class name="bool" field="Gravity Enabled" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 										<Class name="bool" field="Simulated" value="true" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 										<Class name="bool" field="Kinematic" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
 										<Class name="bool" field="CCD Enabled" value="false" type="{A0CA880C-AFE4-43CB-926C-59AC48496112}"/>
