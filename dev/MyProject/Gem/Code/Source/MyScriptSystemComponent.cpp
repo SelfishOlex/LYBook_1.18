@@ -2,11 +2,14 @@
 #include <AzCore/Serialization/EditContext.h>
 #include <AzCore/RTTI/BehaviorContext.h>
 #include <ISystem.h>
+#include <ScriptCanvas/MyNodeLibrary.h>
 
 using namespace MyProject;
 
 void MyScriptSystemComponent::Reflect(AZ::ReflectContext* rc)
 {
+    MyNodeLibrary::Reflect(rc);
+
     if (auto* sc = azrtti_cast<AZ::SerializeContext*>(rc))
     {
         sc->Class<MyScriptSystemComponent, Component>()
@@ -32,6 +35,16 @@ void MyScriptSystemComponent::Reflect(AZ::ReflectContext* rc)
     }
 }
 
+void MyScriptSystemComponent::Init()
+{
+    using namespace ScriptCanvas;
+    if (auto nodeRegistryVariable = GetNodeRegistry())
+    {
+        NodeRegistry& nodeRegistry = nodeRegistryVariable.Get();
+        MyNodeLibrary::InitNodeRegistry(nodeRegistry);
+    }
+}
+
 bool MyScriptSystemComponent::IsEditor()
 {
     ISystem* system = nullptr;
@@ -42,4 +55,4 @@ bool MyScriptSystemComponent::IsEditor()
         return system->GetGlobalEnvironment()->IsEditor();
     }
     return false;
-} 
+}
