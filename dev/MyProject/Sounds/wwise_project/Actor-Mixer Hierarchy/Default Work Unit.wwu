@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{525A7B2C-6C98-4230-AA25-151E1DE60477}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{525A7B2C-6C98-4230-AA25-151E1DE60477}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="My_Music" ID="{D9A46902-AB28-4AB6-84DF-871DD36C5AE3}" ShortID="651951313">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-17</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Surf_Dist_01" ID="{50AB230C-FE0A-443A-B97F-CAFECF22144E}" ShortID="502964199">
+							<Language>SFX</Language>
+							<AudioFile>Surf_Dist_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Surf_Dist_01" ID="{50AB230C-FE0A-443A-B97F-CAFECF22144E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
