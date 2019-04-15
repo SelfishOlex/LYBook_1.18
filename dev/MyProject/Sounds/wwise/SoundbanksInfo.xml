@@ -21,13 +21,39 @@
 			<ShortName>Content</ShortName>
 			<Path>Content.bnk</Path>
 			<IncludedEvents>
+				<Event Id="878621216" Name="Play_My_Footsteps" ObjectPath="\Events\Default Work Unit\Play_My_Footsteps"/>
 				<Event Id="2666883372" Name="Play_My_Music" ObjectPath="\Events\Default Work Unit\Play_My_Music"/>
+				<Event Id="2939371902" Name="Stop_My_Footsteps" ObjectPath="\Events\Default Work Unit\Stop_My_Footsteps"/>
 				<Event Id="725169646" Name="Stop_My_Music" ObjectPath="\Events\Default Work Unit\Stop_My_Music"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="221983749" Language="SFX">
+					<ShortName>Ftstp_Run_Rin_08.wav</ShortName>
+					<Path>SFX\Ftstp_Run_Rin_08_56D34C19.wem</Path>
+				</File>
+				<File Id="386475618" Language="SFX">
+					<ShortName>Ftstp_Run_Rin_03.wav</ShortName>
+					<Path>SFX\Ftstp_Run_Rin_03_56D34C19.wem</Path>
+				</File>
 				<File Id="502964199" Language="SFX">
 					<ShortName>Surf_Dist_01.wav</ShortName>
 					<Path>SFX\Surf_Dist_01_56D34C19.wem</Path>
+				</File>
+				<File Id="667126967" Language="SFX">
+					<ShortName>Ftstp_Run_Rin_06.wav</ShortName>
+					<Path>SFX\Ftstp_Run_Rin_06_56D34C19.wem</Path>
+				</File>
+				<File Id="699796044" Language="SFX">
+					<ShortName>Ftstp_Run_Rin_07.wav</ShortName>
+					<Path>SFX\Ftstp_Run_Rin_07_56D34C19.wem</Path>
+				</File>
+				<File Id="974876835" Language="SFX">
+					<ShortName>Ftstp_Run_Rin_02.wav</ShortName>
+					<Path>SFX\Ftstp_Run_Rin_02_56D34C19.wem</Path>
+				</File>
+				<File Id="1028280155" Language="SFX">
+					<ShortName>Ftstp_Run_Rin_01.wav</ShortName>
+					<Path>SFX\Ftstp_Run_Rin_01_56D34C19.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

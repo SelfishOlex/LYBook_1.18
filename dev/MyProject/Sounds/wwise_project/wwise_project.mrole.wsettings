@@ -4,6 +4,8 @@
 		<UserProjectSettings Name="" ID="{8219AD35-11B8-4D3D-9C5E-77C89BFC6E42}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\Work\LYBook_1.18\dev\SamplesProject\Sounds\wwise_project\Originals\SFX"/>
+				<Property Name="Event Action List\{0D2A9BD0-209B-494C-8FE7-ACF663AF0D29}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1EB34E3D-781B-4240-8848-9700587D95E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{97C3F470-8998-4462-B868-C7BA56358862}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{C282594B-AAC6-4392-9ACF-796D7B2320CD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>

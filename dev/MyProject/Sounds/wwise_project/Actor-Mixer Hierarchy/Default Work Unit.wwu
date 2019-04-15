@@ -29,6 +29,184 @@
 						<ActiveSource Name="Surf_Dist_01" ID="{50AB230C-FE0A-443A-B97F-CAFECF22144E}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="My_Footsteps" ID="{4AE38125-C438-426C-B784-C841FA51E1BB}" ShortID="1046404942">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Ftstp_Run_Rin_01" ID="{D55F1B5F-DD24-444D-AC28-E64C266DABF0}" ShortID="826570285">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ftstp_Run_Rin_01" ID="{0D4CA0A0-2B48-47FC-B5C1-44D7369F90C3}" ShortID="1028280155">
+									<Language>SFX</Language>
+									<AudioFile>Ftstp_Run_Rin_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ftstp_Run_Rin_01" ID="{0D4CA0A0-2B48-47FC-B5C1-44D7369F90C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ftstp_Run_Rin_02" ID="{ED36F648-65DD-434C-8641-D468642B2B04}" ShortID="1070558268">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ftstp_Run_Rin_02" ID="{5FF7E092-1B83-4E1D-A7DA-E310E2B34469}" ShortID="974876835">
+									<Language>SFX</Language>
+									<AudioFile>Ftstp_Run_Rin_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ftstp_Run_Rin_02" ID="{5FF7E092-1B83-4E1D-A7DA-E310E2B34469}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ftstp_Run_Rin_03" ID="{ADCCC95C-A5FD-4DD3-89A2-3EBF8598753A}" ShortID="853365592">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ftstp_Run_Rin_03" ID="{30018367-C289-4075-A3E7-95D89400974B}" ShortID="386475618">
+									<Language>SFX</Language>
+									<AudioFile>Ftstp_Run_Rin_03.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ftstp_Run_Rin_03" ID="{30018367-C289-4075-A3E7-95D89400974B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ftstp_Run_Rin_04" ID="{2C309F62-A790-42C0-99FE-008A6CCC6E8D}" ShortID="911935207">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ftstp_Run_Rin_04" ID="{B8C20A04-B8F4-4C7F-99A3-26D9F7A5BB34}" ShortID="857730777">
+									<Language>SFX</Language>
+									<AudioFile>Ftstp_Run_Rin_04.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ftstp_Run_Rin_04" ID="{B8C20A04-B8F4-4C7F-99A3-26D9F7A5BB34}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ftstp_Run_Rin_05" ID="{0F7E2FBC-847C-4205-9093-371E42585F7B}" ShortID="378767804">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ftstp_Run_Rin_05" ID="{B568C812-0183-4ABF-8908-A4DD858571E6}" ShortID="312422091">
+									<Language>SFX</Language>
+									<AudioFile>Ftstp_Run_Rin_05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ftstp_Run_Rin_05" ID="{B568C812-0183-4ABF-8908-A4DD858571E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ftstp_Run_Rin_06" ID="{B7F7173F-B098-4DF5-9B1A-B68989DD60A2}" ShortID="393824854">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ftstp_Run_Rin_06" ID="{95B5B3C0-33F2-4D33-B976-FFB152BCA306}" ShortID="667126967">
+									<Language>SFX</Language>
+									<AudioFile>Ftstp_Run_Rin_06.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ftstp_Run_Rin_06" ID="{95B5B3C0-33F2-4D33-B976-FFB152BCA306}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ftstp_Run_Rin_07" ID="{7ECD19C9-6FC7-4535-AE1C-D52C114C86A9}" ShortID="558412007">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ftstp_Run_Rin_07" ID="{F2DE28CE-C569-406F-9818-93D6105A6ECA}" ShortID="699796044">
+									<Language>SFX</Language>
+									<AudioFile>Ftstp_Run_Rin_07.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ftstp_Run_Rin_07" ID="{F2DE28CE-C569-406F-9818-93D6105A6ECA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ftstp_Run_Rin_08" ID="{CA54B454-F1BD-425A-8A33-1993ECDE5C73}" ShortID="994520456">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EE5292CD-4F23-43F4-966B-836BFB347720}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CC5AAC10-DF6B-4823-BD66-F3FDE9602B43}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ftstp_Run_Rin_08" ID="{3FC1DC1C-E003-4F10-B9BD-7BE4C38E652F}" ShortID="221983749">
+									<Language>SFX</Language>
+									<AudioFile>Ftstp_Run_Rin_08.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ftstp_Run_Rin_08" ID="{3FC1DC1C-E003-4F10-B9BD-7BE4C38E652F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
