@@ -122,6 +122,12 @@
             "_comment": "CertificateManager"
         },
         {
+            "Path": "Gems/MultiplayerCloseAllNetworkPeers",
+            "Uuid": "68ef06879ec4459891ac9ad946d476e9",
+            "Version": "0.1.0",
+            "_comment": "MultiplayerCloseAllNetworkPeers"
+        },
+        {
             "Path": "Gems/MultiplayerCharacter",
             "Uuid": "699d2e7ad1fb43738071660ee88863fe",
             "Version": "0.1.0",
