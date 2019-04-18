@@ -10,9 +10,9 @@ Each chapter was carefully considered. Was it necessary to move forward? Was it 
 
 ## Book Links
 
-Print edition: http://a.co/d/5lePvY4
+Print edition: http://a.co/d/3xBfSRT
 
-EBook edition: http://a.co/d/bSUEzLm
+EBook edition: http://a.co/d/fsb3hdl
 
 ## Note
 
